@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projects</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600|Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Test Modal -->
+    <div class="modal fade" id="testModal" tabindex="-1" role="dialog" aria-labelledby="testModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-header">
+                    <h2 class="modal-title font-1 font-lg">This is a test!</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="font-2 font-mm">Thanks for participate. Click below to see more about my projects.</p>
+                </div>
+                <div class="modal-footer border-0">
+                    <a class=" mx-auto" href="https://domingoacd.github.io/portfolio/"><button type="button" class="btn bg-shine">To Portfolio</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light transparent px-5">
+        <a href="index.html" class="navbar-brand logo"><i class="fab fa-pushed font-xlg"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOptions">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav collapse navbar-collapse justify-content-end font-sm font-1" id="navbarOptions">
+            <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+            <li class="nav-item active"><a href="projects.html" class="nav-link">PROJECTS</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+            <li class="nav-item"><a href="https://domingoacd.github.io/portfolio/" class="to-p bg-shine text-white p-2">TO PROTFOLIO</a></li>
+        </ul>
+    </nav>
+    <!-- Projects -->
+    <div class="container-fluid bg-grey projects-page">
+        <div class="row justify-content-center p-5">
+            <div class="col-12 col-md-8 text-center">
+                <h2 class="font-1 font-lg">UI/UX & Graphic Designer</h2>
+                <p class="font-2 font-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam auctor pharetra odio ut efficitur. Praesent
+                ullamcorper id nibh suscipit ultricies.</p>
+            </div>
+        </div>
+        <div class="col-12 p-0">
+            <div class="row">
+                <div class="test col-6 col-lg-3 px-0">
+                    <a class="img-hover" data-toggle="modal" data-target="#testModal" href="#"><img class="img-thumbnail p-0 border-0 rounded-0" src="images/thumb1.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 px-0">
+                    <a class="img-hover" data-toggle="modal" data-target="#testModal" href="#"><img class="img-thumbnail p-0 border-0 rounded-0" src="images/thumb2.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 px-0">
+                    <a class="img-hover" data-toggle="modal" data-target="#testModal" href="#"><img class="img-thumbnail p-0 border-0 rounded-0" src="images/thumb3.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 px-0">
+                    <a class="img-hover" data-toggle="modal" data-target="#testModal" href="#"><img class="img-thumbnail p-0 border-0 rounded-0" src="images/thumb4.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-lg-3 px-0">
+                    <a class="img-hover" data-toggle="modal" data-target="#testModal" href="#"><img class="img-thumbnail p-0 border-0 rounded-0" src="images/thumb4.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 px-0">
+                    <a class="img-hover" data-toggle="modal" data-target="#testModal" href="#"><img class="img-thumbnail p-0 border-0 rounded-0" src="images/thumb3.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 px-0">
+                    <a class="img-hover" data-toggle="modal" data-target="#testModal" href="#"><img class="img-thumbnail p-0 border-0 rounded-0" src="images/thumb2.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 px-0">
+                    <a class="img-hover" data-toggle="modal" data-target="#testModal" href="#"><img class="img-thumbnail p-0 border-0 rounded-0" src="images/thumb1.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="row" id="moreProjects">
+                <div class="col-6 col-lg-3 px-0"><a href="#" class="img-hover" data-toggle="modal" data-target="#testModal"><img src="images/thumb2.jpg" alt="" class="img-thumbnail p-0 border-0 rounded-0"></a></div>
+                <div class="col-6 col-lg-3 px-0"><a href="#" class="img-hover" data-toggle="modal" data-target="#testModal"><img src="images/thumb1.jpg" alt="" class="img-thumbnail p-0 border-0 rounded-0"></a></div>
+                <div class="col-6 col-lg-3 px-0"><a href="#" class="img-hover" data-toggle="modal" data-target="#testModal"><img src="images/thumb4.jpg" alt="" class="img-thumbnail p-0 border-0 rounded-0"></a></div>
+                <div class="col-6 col-lg-3 px-0"><a href="#" class="img-hover" data-toggle="modal" data-target="#testModal"><img src="images/thumb3.jpg" alt="" class="img-thumbnail p-0 border-0 rounded-0"></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid footer font-grey font-2 font-msm px-5 py-5">
+        <div class="row">
+            <div class="col-12 col-sm-7 col-lg text-center copyright">
+                <h4 class="font-1 font-white font-mm mb-3">Piroll Design, Inc.</h4>
+                <p>© 2017 Piroll. All rights reserved.</p>
+                <p>Developed by Domingo Cabeza.</p>
+                <p>Designed by robirurk.</p>
+            </div>
+            <div class="col-12 col-sm-5 col-lg text-center contact-info">
+                <p>hello@pirolltheme.com</p>
+                <p>+44 987 065 908</p>
+            </div>
+            <div class="col">
+                <ul class="no-bullets">
+                    <li><a href="projects.html">Projects</a></li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Career</li>
+                </ul>
+            </div>
+            <div class="col">
+               <ul class="no-bullets">
+                    <li>News</li>
+                    <li>Events</li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li>Legals</li>
+                </ul>
+            </div>
+            <div class="col">
+               <ul class="no-bullets">
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Dribble</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>
